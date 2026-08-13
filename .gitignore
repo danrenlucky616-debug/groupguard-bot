@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# WhatsApp authentication/session data
+auth_info/
+auth/
+sessions/
+
+# Local database
+groupguard-data.json
+
+# Node
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

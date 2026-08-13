@@ -1,0 +1,19 @@
+{
+  "name": "groupguard-bot",
+  "version": "2.0.0",
+  "description": "Multi-user WhatsApp group moderation bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "10.0.1",
+    "@whiskeysockets/baileys": "6.7.23",
+    "dotenv": "16.6.1",
+    "express": "5.1.0",
+    "pino": "9.7.0"
+  }
+}
